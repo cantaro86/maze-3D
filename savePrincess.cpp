@@ -5,7 +5,7 @@
  * Created on 26 gennaio 2016, 11.59
  */
 
-#include "Maze.h"
+#include "Maze.hpp"
 
 
 Solution Maze::savePrincess(ThreeDimCharArray &grid)

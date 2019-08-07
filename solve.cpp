@@ -6,7 +6,7 @@
  */
 
 
-#include "Maze.h"
+#include "Maze.hpp"
 
 bool Solve(ThreeDimCharArray &grid, int X, int Y, int Z, 
                          COORD EndingPoint, const int MazeDeep,

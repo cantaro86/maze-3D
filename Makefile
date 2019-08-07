@@ -19,15 +19,15 @@ $(PROGRAM_NAME):$(OBJECTS)
 
 
 
-main.o:Maze.h 
+main.o:Maze.hpp 
 	$(CXX) $(CXXFLAGS) -c -o main.o main.cpp
 
 
-savePrincess.o:Maze.h 
+savePrincess.o:Maze.hpp 
 	$(CXX) $(CXXFLAGS) -c -o savePrincess.o savePrincess.cpp
 
 
-solve.o:Maze.h 
+solve.o:Maze.hpp 
 	$(CXX) $(CXXFLAGS) -c -o solve.o solve.cpp
 
 

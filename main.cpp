@@ -6,7 +6,7 @@
  */
 
 
-#include "Maze.h"
+#include "Maze.hpp"
 
 
 int main ()
